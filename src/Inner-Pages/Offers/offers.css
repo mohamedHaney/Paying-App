@@ -1,0 +1,32 @@
+.offer-container{
+  padding: 20px 50px;
+}
+.offer-container img{
+  /* display: block; */
+  padding-right: 40px;
+}
+.offer-desc{
+  display: flex;
+  flex-direction: column;
+}
+.offer-div{
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 50px 25px;
+  border-radius: 30px;
+  display: flex;
+  background-color: #c7c7ff;
+}
+@media (max-width: 430px) {
+  .offer-div{
+    font-size: 10px;
+  }
+  .offer-container {
+    padding: 20px 5px;
+}
+.offer-container img {
+  padding-right: 10px;
+}
+}

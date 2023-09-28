@@ -1,0 +1,8 @@
+.how-it-works{
+  height: calc(100vh - 60px);
+  background: url(./purple-gradient-background-bywul1wtjnnbbpbk.jpg);
+}
+.how-it-works-text{
+  padding: 10px 30px;
+  color: bisque;
+}

@@ -1,0 +1,96 @@
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  gap: 100px;
+}
+.first{
+  margin-top: 50px;
+}
+.title{
+  color: wheat;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom:100px;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a{
+  text-decoration: none;
+  font-weight: 500;
+  color: darkmagenta;
+  background-color: white;
+  padding: 0 20px 0 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.icons i{
+  color: black;
+  margin-right: 20px;
+  padding: 17px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+}
+.recent-transactions{
+  text-align: center;
+}
+.recent-transactions img{
+  margin-top:5px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.recive-money-but{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: lightblue;
+  width: 30%;
+  height: 55px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-link{
+  text-decoration: none;
+}
+
+.recive-money-but a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 930px) {
+  .icons{
+    flex-direction: column;
+    gap: 20px
+    
+  }
+  .icons a{
+    text-align: left;
+    font-size: 10px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .recive-money-but{
+    font-size: 14px;
+    width: 100%;
+  }
+  .recent-transactions{
+    flex-direction: column;
+  }
+  .home-container{
+    padding: 0 25px;
+
+  }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+.log-body{
+  height: 100vh;
+background: url(./purple-gradient-background-bywul1wtjnnbbpbk.jpg);
+}
+
+.login{
+  height: calc(100vh - 75px);
+  max-width: 978px;
+  width: 100vw;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  background-color: white;
+  margin: 7px auto;
+}
+
+.login span{
+  color: #adb5bd;
+}
+
+.login #form{
+  max-width: 320px;
+  width: 100vw;
+}
+
+.login #form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+.login #form > input:focus{
+  outline: none;
+}
+
+.login #form > .btn{
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login .flex{
+  display: flex;
+  gap: 1em;
+}
+
+.login .flex-col{
+  flex-direction: column;
+}
+
+.login .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+.login .sign-up{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.login .sign-up .span{
+  color: #003049;
+  text-decoration: underline;
+}
+.login .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .login .col-2 img{
+    display: initial;
+  }
+}

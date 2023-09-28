@@ -1,0 +1,90 @@
+.main-qr-code{
+  margin: 30px 0;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.qr{
+  text-align: center;
+  color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 50px;
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+}
+.qr img{
+  width: 300px ;
+}
+.other-options{
+  margin-top: 100px;
+  text-align: center;
+  color: wheat;
+  font-size: 45px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+.other-options input {
+  padding: 15px 32px;
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+}
+.other-options input::placeholder {
+  color: blueviolet;
+}
+.other-options button{
+  border:none;
+  padding: 0;
+  padding-left: 30px;
+  background-color: wheat;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.other-options button i{
+  color: blueviolet;
+  padding: 15px 20px;
+  padding-left: 20px;
+  border-radius: 0 10px 10px 0;
+  background-color:lightblue ;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+@media (max-width:1035px){
+  .main-qr-code{
+    flex-direction: column;
+  }
+}
+@media (max-width:526px){
+  .other-options input {
+    width: 170px;
+  }
+  .other-options input::placeholder {
+    font-size: 10px;
+  }
+  .qr img{
+    width: 200px;
+  }
+  .other-options button{
+    width: 250px;
+    padding-left: 20px;
+    font-size: 10px;
+  }
+  .other-options button i{
+  margin-left: 10px;
+  font-size: 15px;
+  }
+  .main-qr-code{
+    padding: 0 30px;
+  }
+}

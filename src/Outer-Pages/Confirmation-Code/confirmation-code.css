@@ -1,0 +1,54 @@
+.confirm{
+  height: calc(100vh - 60px);
+  background: url(./purple-gradient-background-bywul1wtjnnbbpbk.jpg);
+}
+.confirm-home{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+.confirm-text{
+  text-align: center;
+  font-size: 50px;
+  color: wheat;
+}
+.confirm-input{
+  width: 500px;
+  align-items: center;
+  padding: 50px 80px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  outline: none;
+}
+.confirm-input::placeholder{
+  color: blueviolet;
+  font-size: 20px;
+  padding: 100px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+input[type=number]{
+  -moz-appearance:textfield;
+}
+.confirm-input:focus{
+  border: 5px rgb(150,150,214) solid;
+}
+.confirm-btn{
+  color: blueviolet;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 50px;
+  background-color: wheat;
+  width: 500px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: -50px;
+}

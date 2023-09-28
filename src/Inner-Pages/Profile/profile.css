@@ -1,0 +1,167 @@
+.profile-main{
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: start;
+  padding: 0 100px;
+}
+.first-div {
+  justify-content: space-around;
+  width:50% ;
+  color: lightblue;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.level{
+  font-size: 15px;
+  color: white;
+}
+.first-div img{
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.first-div-info{
+  display: flex;
+  flex-direction: column;
+}
+.second-div{
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 75px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 50px;
+}
+
+.second-div-info{
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.numbers{
+  color: wheat;
+}
+.third-div{
+  font-weight: 500;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 25px;
+  display: flex;
+  margin-top: 85px;
+  justify-content: space-around;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+.third-div span{
+  cursor: pointer;
+  color: blueviolet;
+  background-color: white;
+  padding-right:30px;
+  border-radius: 20px;
+  text-align: left;
+  width: 200px;
+}
+.third-div i{
+  color: black;
+  padding: 15px;
+  margin-right:12px;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+.second-main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top:80px;
+  margin-bottom: 50px;
+  gap: 100px ;
+}
+.f,.s{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  gap: 50px;
+}
+.f-div,.s-div{
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 500px;
+  font-weight: 500;
+}
+.f-i{
+  padding: 20px;
+  color: blueviolet;
+  border-radius: 10px;
+  background-color: white;
+}
+.s-i{
+  color: blueviolet;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .profile-main{
+    padding: 0 50px;
+  }
+  .third-div{
+    font-size: 12px;
+  }
+  .third-div span{
+    padding-right: 15px;
+  }
+}
+@media (max-width:1227px){
+.f-div,.s-div{
+  width: 300px;
+}
+}
+@media (max-width:870px){
+  .f-div,.s-div{
+    width: 200px;
+  }
+}
+@media (max-width:600px){
+  .second-main{
+    width: 200px;
+    flex-direction: column;
+  }
+}

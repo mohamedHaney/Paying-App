@@ -1,0 +1,32 @@
+.notific{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+  padding: 0 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.notific i{
+  font-size:300px ;
+  color:lightblue;
+}
+.notific-fs{
+  color: wheat;
+  margin: 15px 0;
+}
+.notific-ss{
+  color: goldenrod;
+}
+@media(max-width:500px){
+  .notific i{
+    font-size:150px ;
+    color:lightblue;
+  }
+  .notific-fs{
+    font-size: 20px;
+  }
+  .notific-ss{
+    font-size: 13px;
+  }
+}
